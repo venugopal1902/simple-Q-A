@@ -48,12 +48,3 @@ Run the application:
 
 streamlit run app.py
 
-Click Save.
-
-Deploy:
-
-Click "Deploy!".
-
-Wait a minute or two for the server to install the requirements and launch your app.
-
-Once deployed, you will get a public URL (e.g., https://your-app-name.streamlit.app/) that you can submit to your evaluators!

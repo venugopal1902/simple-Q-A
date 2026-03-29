@@ -43,41 +43,10 @@ Create a folder named .streamlit in your project root, and inside it, create a f
 GEMINI_API_KEY = "your_actual_api_key_here"
 
 
-(Note: Never commit secrets.toml to a public GitHub repository!)
 
 Run the application:
 
 streamlit run app.py
-
-
-The app will open automatically in your web browser at http://localhost:8501.
-
-🚀 How to Deploy (Streamlit Community Cloud)
-
-Deploying this app is completely free and takes about 2 minutes using Streamlit Community Cloud.
-
-Upload to GitHub:
-
-Create a new public or private repository on GitHub.
-
-Upload app.py and requirements.txt to this repository.
-
-Connect to Streamlit Cloud:
-
-Go to share.streamlit.io and log in with your GitHub account.
-
-Click "New app".
-
-Select the repository, branch (usually main), and the main file path (app.py).
-
-Add your API Key as a Secret:
-
-Before clicking deploy, click on "Advanced settings...".
-
-In the "Secrets" text box, enter your API key just like you did locally:
-
-GEMINI_API_KEY = "your_actual_api_key_here"
-
 
 Click Save.
 
